@@ -4,6 +4,7 @@
   "description": "* список на функционалност * список на save-dev инструменти * архитектура * список на библиотеки",
   "main": "index.js",
   "scripts": {
+    "start": "node ./src/config/configuration.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

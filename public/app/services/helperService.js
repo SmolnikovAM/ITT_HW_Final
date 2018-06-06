@@ -1,7 +1,7 @@
 angular.module('app').factory('helperService', [
   // --------API-----------
   function() {
-    const logFlag = true;
+    const logFlag = false;
 
     return {
       log,

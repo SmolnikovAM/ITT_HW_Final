@@ -1,104 +1,130 @@
-# TODO
+# IT Talents Финален проект
 
-* Waiting for Ivan accept
-* архитектура
-* список на save-dev инструменти
-* список на библиотеки
+1.  Задача
+2.  Архитектура и Requirements analysis
+3.  Requirements analysis База дани
+4.  Requirements analysis на видеа
+5.  Технологии на FrontEnd и BackEnd
+6.  Принцип на работа (SoftSkills)
+7.  TODO
+8.  Install & run
 
-# Функционалност
+## Задача
 
-* site
-  1.  (**must**) adaptive/reponsive website
-  2.  (**must**) can see last seen videos without login (store in local storage)
-  3.  (**may be**) publish popular videos on facebook (API facebook)
-  4.  (**may be**) have facebook bot in messanger.com for users who use facebook account. Bot send statistic information about user videos and comments (API Facebook)
-* user
-  1.  (**must**) has name
-  1.  (**must**) has username/email
-  1.  (**may be**) can login using accounts from other servicies (google, github, facebook)
-  1.  (**must**) has password
-  1.  (**must**) has status admin / not admin
-  1.  (**must**) activated/deactivated status
-  1.  (**must**) can upload video (puplic / privat)
-  1.  (**must**) can create multiple playlist (puplic / privat)
-  1.  (**must**) can edit and delete own video
-  1.  (**must**) can edit and delete own comment
-  1.  (**must**) can edit and delete own playlist
-  1.  (**must**) can comment video
-  1.  (**may be**) can stream video from web camera
-  1.  (**must**) can send ticket to support
-  1.  (**must**) can search video by name / playlist-name
-  1.  (**must**) can see all video of another user
-  1.  (**must**) can subscribe to the channel of another user. After has notifications from that user
-  1.  (**must**) has playlist(cannot change) for last seen videos (infinity scroll with AJAX request +10)
-* admin
-  1.  (**Ivan question**) admin has own interface for site oк same interface with extra
-  1.  (**must**) can activate/deactivate profiles
-  1.  (**must**) can block users
-  1.  (**Ivan question**) can block user-ip
-  1.  (**must**) can manupulate videos/users/comments
-  1.  (**must**) can read tickets from users. Can close ticket. User have notification. Оr can send messange to user email.
-* video
-  1.  (**must**) has name
-  1.  (**must**) has date
-  1.  (**must**) has owner
-  1.  (**must**) has status - public/private
-  1.  (**must**) has reference to address where video is stored (local system folder)
-  1.  (**must**) has watched counter.
-  1.  (**must**) has comments
+* Логин и регистрация на
+  потребител.
+* Потребители
+* Качване на клип.
+* Създаване на плейлист с клипове.
+* Преглед на качени клипове.
+* Преглед на плейлисти.
+* Търсене на клип, плейлист или на потребител по име.
+* Подреждане по лайкове и дата на качване.
+* Пускане на клип чрез плейър.
+* Харесване, не харесване и репорт на клип.
+* Коментари под клипа.
+* Следване на потребител.
+* Възможност за харесване нехаресване на коментар.
+* Допълнително :
+  1.  Логин чрез фейсбук и гугъл.
+  2.  Шерване на клип във фейсбук.
 
-# База данни
+## Архитектура и Requirements analysis
 
-**таблици:**
+## Requirements analysis База дани
 
-* **users**
-  * fields:
-  1.  name
-  2.  email
-  3.  login
-* **videos**
-  * fields:
-  1.
-* **user_videos**
-  * fields:
-  1.
-* **comments** - comments to videos
-  * fields:
-  1.
-* **likes** - likes to videos
-  * fields:
-  1.
-* **playlists**
-  * fields:
-  1.
-* **last_seen** - history of videos
-  * fields:
-  1.
+## Requirements analysis на видеа
 
-# Библиотеки
+**Проблем:**
 
-# save-dev инструменти
+* Има ограничение за ползване на video и audio формати в браузери.
+* User-а може да качи видеа с много голям размер.
+* Слаба интернет връзка
 
-## before commit
+**Решение:**
 
-**eslint**
+* Конвертация за всяко видео в един
+  формат с различно качеството
 
-* airbnb config
-* prettier config
+**Бизнес-процесс**
 
-## Параметри на редактор
+1.  Качване на видеа
+2.  Фонова конвертиртация
+3.  Публикуване и нотификация на user
 
+## Технологии на FrontEnd и BackEnd
+
+Списък с използваните езици, технологии, библиотеки и патерни
+
+1.  JavaScript
+1.  CSS
+1.  NodeJS
+1.  Apache
+1.  RESTful service
+1.  Amazon Cloud Service
+1.  Sqlite Database
+1.  GitHub
+1.  DBdesigner
+1.  UML diagram
+1.  AngularJS
+1.  Bootstrap
+1.  FFMPEG
+1.  Passport JS
+1.  Facebook SDK
+1.  Patterns:
+1.  Repository
+1.  Singleton
+1.  MVC
+
+## Принцип на работа (SoftSkills)
+
+**Проблем:**
+
+* Голямо разстояние между членовете на екипа – различни градове
+* Различни интереси и начини на изпъление на задачите
+* Езикова бариера
+
+**Решение:**
+
+* Точно планиране на работа
+* Правилно разпределение на задачите предвид силните страни на всеки един.
+* Инструменти за бърза коммуникация
+* Уговорка за стил на кодване
+
+**Интрументи:**
+
+* GIT
+* wireframe.cc - макет на сайт
+* dbdesigner.net - дизайн на БД
+* draw.io - UML диаграми
+* Messenger.com & Skype
+* wetransfer.com -file exchange
+
+## TODO
+
+* Online streaming
+* Server Side Rendering
+* AutoTest
+* SQLite миграция към MySql
+* End Point нотификации
+* Админа да може да изтрива и коригира
+  коментари на юзери
+* Добавяне на повече типове формати за
+  гледане.
+* Скорост на гледане
+* Споделяне в социалните мрежи
+* Емайл верификация на акаунт
+
+## Install & run
+
+За инсталиране трябва да
+
+```bash
+npm install
 ```
-"editor.tabSize": 2
+
+```bash
+npm start
 ```
 
-## prettier
-
-параметри:
-
-```json
-"prettier": {
-    "trailingComma": "all",
-    "singleQuote": true
-  }
-```
+в база данни `./src/config/dbs/project.db` трябва да изтрия всички тестови данни
