@@ -31,7 +31,7 @@
 
 ## Архитектура и Requirements analysis
 
-<img src="doc/tech.jpg" width="100%">
+<img src="doc/tech.jpg">
 
 ## Requirements analysis База дани
 
