@@ -31,7 +31,11 @@
 
 ## Архитектура и Requirements analysis
 
+![](doc/tech.jpg?raw=true)
+
 ## Requirements analysis База дани
+
+![](doc/db.jpg?raw=true)
 
 ## Requirements analysis на видеа
 
