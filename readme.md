@@ -31,7 +31,7 @@
 
 ## Архитектура и Requirements analysis
 
-![](./doc/tech.jpg?raw=true)
+<img src="doc/tech.jpg" width="100%">
 
 ## Requirements analysis База дани
 
