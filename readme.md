@@ -31,7 +31,7 @@
 
 ## Архитектура и Requirements analysis
 
-<img src="doc/tech.jpg">
+![](https://github.com/SmolnikovAM/ITT_HW_Final/blob/master/doc/tech.JPG)
 
 ## Requirements analysis База дани
 
