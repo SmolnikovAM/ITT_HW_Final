@@ -35,7 +35,7 @@
 
 ## Requirements analysis База дани
 
-![](./doc/db.jpg?raw=true)
+![](https://github.com/SmolnikovAM/ITT_HW_Final/blob/master/doc/db.JPG)
 
 ## Requirements analysis на видеа
 
