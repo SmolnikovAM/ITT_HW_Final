@@ -1,5 +1,7 @@
 # IT Talents Финален проект
 
+[Презентация](https://github.com/SmolnikovAM/ITT_HW_Final/blob/master/doc/presentation.pdf)
+
 1.  Задача
 2.  Архитектура и Requirements analysis
 3.  Requirements analysis База дани
